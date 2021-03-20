@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.flexDirectionColumn {
+  flex-direction: column;
+}
+.flexDirectionRow {
+  flex-direction: row;
+}
+
+.containerDirection {
+  flex-direction: column;
+}
+
+.justifySpaceBetween {
+  justify-content: space-between;
+}
+
+.justifySpaceAround {
+  justify-content: space-around;
+}
+
+.characters {
+  margin-bottom: 2rem;
+}
+
+.soundList {
+  list-style: none;
+  padding: 0;
+}
+
+.song {
+  margin: 0;
+}
+
+.cricket {
+  height: 20vmin;
+}
+
+.frog {
+  height: 20vmin;
+}
+
+.dragonfly {
+  height: 25vmin;
+}
+
+.topSeparation {
+  margin-top: 3vmin;
+}
+
+.songImage {
+  height: 11vmin;
+}
+
+.text-result {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  height: 2rem;
+  width: 15rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  margin-top: 2vmin;
+}
+
+@media only screen and (min-width: 768px) {
+  .containerDirection {
+    flex-direction: row;
+  }
+
+  .characters {
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+
+  .cricket {
+    height: 12vmin;
+  }
+
+  .frog {
+    height: 12vmin;
+  }
+
+  .dragonfly {
+    height: 15vmin;
+  }
+}
